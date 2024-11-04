@@ -3,6 +3,10 @@ import React, { useState } from 'react'
 
 'Diff: File' // Diff the current file against another one
 
+
+
+// add a message
+
 interface todo {
     id : string;
     text : string;

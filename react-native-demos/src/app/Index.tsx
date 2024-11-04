@@ -15,6 +15,7 @@ import ShairingState from '../components/Shairing State/ShairingState';
 import ToggleButton from '../components/ToggleButton/ToggleButton';
 import WeatherApp from '../components/WeatherApp';
 import ColorPicker from '../components/ColorPicker';
+import TodoList from '../components/TodoList1';
 console.log('ShairingState:', ShairingState);
 
 
@@ -22,7 +23,7 @@ const index = () => {
   return (
     <View>
         <Greet />
-        <ColorPicker />
+        <TodoList />
         
         
         
