@@ -16,6 +16,7 @@ import ToggleButton from '../components/ToggleButton/ToggleButton';
 import WeatherApp from '../components/WeatherApp';
 import ColorPicker from '../components/ColorPicker';
 import TodoList from '../components/TodoList1';
+import MyEffect from '../components/MyEffect';
 console.log('ShairingState:', ShairingState);
 
 
@@ -23,7 +24,7 @@ const index = () => {
   return (
     <View>
         <Greet />
-        <TodoList />
+        <MyEffect />
         
         
         
